@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    background-color: #ffffff;
+    border: 1px solid rgba(164, 180, 255, 0.84);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.listItem:hover {
+    background-color: #f3f3f3;
+}
